@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgramServiceTests\\LoyaltyProgramServiceTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\EventConsumer\\EventConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\EventConsumer\\EventConsumer.csproj",
+        "projectName": "EventConsumer",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\EventConsumer\\EventConsumer.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\EventConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed2/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed3/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgramServiceTests\\LoyaltyProgramServiceTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgramServiceTests\\LoyaltyProgramServiceTests.csproj",
+        "projectName": "LoyaltyProgramServiceTests",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgramServiceTests\\LoyaltyProgramServiceTests.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgramServiceTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed2/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed3/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\EventConsumer\\EventConsumer.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\EventConsumer\\EventConsumer.csproj"
+              },
+              "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgram\\LoyaltyProgram.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgram\\LoyaltyProgram.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgram\\LoyaltyProgram.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgram\\LoyaltyProgram.csproj",
+        "projectName": "LoyaltyProgram",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgram\\LoyaltyProgram.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Projecj01 Demo\\Project01\\Chapter08\\LoyaltyProgram\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed2/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mayurdangi/Project01/_packaging/demofeed3/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "FluentAssertions.Extensions": {
+              "target": "Package",
+              "version": "[1.0.18, )"
+            },
+            "FluentAssertions.NodaTime": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "FluentAssertions.Web": {
+              "target": "Package",
+              "version": "[1.2.4, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
